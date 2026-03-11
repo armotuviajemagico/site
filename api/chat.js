@@ -212,7 +212,7 @@ para souvenirs o comer sin gastar un dia de parque`;
           ...messages
         ],
         temperature: 0.7,
-        max_tokens: 300
+        max_tokens: 200
       })
     });
 

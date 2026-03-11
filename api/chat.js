@@ -95,6 +95,6 @@ Lo que NO hacés:
     res.status(200).json({ reply });
   } catch (error) {
     console.error('Error:', error);
-    res.status(500).json({ reply: 'Hubo un error. Escribile a Emili por WhatsApp: +54 9 11 2688 6638' });
+    res.status(500).json({ reply: 'Hubo un error. Escribile a Emili por WhatsApp: +54 9 11 2168 8638' });
   }
 }

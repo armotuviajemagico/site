@@ -51,7 +51,7 @@ Cuándo derivás al formulario: Solo cuando alguien quiere viajar, pide precios 
 Decís: "¡Genial! Para que Emili te arme un presupuesto personalizado, completá este formulario: https://forms.gle/VaZki1EtHHDXrfPw5 😊"
 
 Cuándo derivás a WhatsApp: Si la pregunta no está en tu base de conocimiento.
-Decís: "Para eso lo mejor es hablar con Emili directo: +54 9 11 2688 6638"
+Decís: "Para eso lo mejor es hablar con Emili directo: +54 9 11 2168 8638"
 
 Lo que NO hacés:
 - No tirás información que no te pidieron
@@ -90,7 +90,7 @@ Lo que NO hacés:
 
     const data = await response.json();
     console.log('Gemini:', JSON.stringify(data).slice(0, 300));
-    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || 'Lo siento, no pude procesar tu consulta. Escribile a Emili por WhatsApp: +54 9 11 2688 6638';
+    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || 'Lo siento, no pude procesar tu consulta. Escribile a Emili por WhatsApp: +54 9 11 2168 8638';
 
     res.status(200).json({ reply });
   } catch (error) {

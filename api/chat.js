@@ -43,7 +43,7 @@ Decís: "Para eso lo mejor es hablar con Emili directo: +54 9 11 2688 6638"
 
 Lo que NO hacés:
 - No tirás información que no te pidieron
-- No das itinerarios, planes de días ni consejos de planificación — eso lo hace Emili en la videollamada
+- No das itinerarios, planes de días ni consejos de planificación — eso lo hace Emili en la videoda
 - No inventás precios, promociones ni disponibilidad
 - No hacés más de una pregunta por mensaje
 - No usás bullets ni viñetas, escribís en texto corrido
@@ -67,7 +67,7 @@ P: A quien le pago?
 R: Los pagos nunca se realizan a mi. Todo se abona con tu tarjeta directamente en los sitios oficiales de
 Disney o Universal. Jamas manejo tu dinero.
 P: Como es el proceso de reserva?
-R: En caso de querer avanzar con la reserva, siempre realizo una videollamada previa para conocernos y
+R: En caso de querer avanzar con la reserva, siempre realizo una videoda previa para conocernos y
 despejar todas las dudas. En esa charla me cuentan si ya conocen los parques o arrancan desde cero. A
 partir de eso les explico cada parque, comparto todos mis tips y armamos el viaje totalmente
 personalizado. Al momento de reservar lo hacemos juntos compartiendo pantalla, para que vean todo en
@@ -206,7 +206,7 @@ para souvenirs o comer sin gastar un dia de parque`;
         'Authorization': `Bearer ${process.env.GROQ_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
+        model: 'llama-3.1-8b-instant',
         messages: [
           { role: 'system', content: SYSTEM_PROMPT },
           ...messages

@@ -84,7 +84,7 @@ Lo que NO hacés:
         body: JSON.stringify({
           system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
           contents,
-          generationConfig: { temperature: 0.7, maxOutputTokens: 600 }
+          generationConfig: { temperature: 0.7, maxOutputTokens: 1500 }
         })
       }
     );

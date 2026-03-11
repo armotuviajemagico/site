@@ -206,7 +206,7 @@ para souvenirs o comer sin gastar un dia de parque`;
         'Authorization': `Bearer ${process.env.GROQ_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'gemma2-9b-it',
+        model: 'gemini-2.0-flash',
         messages: [
           { role: 'system', content: SYSTEM_PROMPT },
           ...messages
